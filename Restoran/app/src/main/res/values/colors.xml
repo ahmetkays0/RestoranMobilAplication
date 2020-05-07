@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c80914</color>
+    <color name="colorPrimaryDark">#00574b</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="yazi">#ffffff</color>
+    <color name="siyahyazi">#7000</color>
+    <color name="redyazi">#e50914</color>
+
+
+    <color name="red">#e50914</color>
+    <color name="redkoyu">#c80914</color>
+    <color name="siyah">#9000</color>
+</resources>

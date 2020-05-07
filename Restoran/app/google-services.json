@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851124700596",
+    "firebase_url": "https://fastrestoran.firebaseio.com",
+    "project_id": "fastrestoran",
+    "storage_bucket": "fastrestoran.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851124700596:android:6f1952205d09302de71ee1",
+        "android_client_info": {
+          "package_name": "com.ewns.restoran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851124700596-e3biidok1dfuie0t0ttan0akoeelidkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCbVrOpMacliejVw6WtzNo3u4qn3Z5jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851124700596-e3biidok1dfuie0t0ttan0akoeelidkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

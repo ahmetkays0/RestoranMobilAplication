@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ewns.restoran">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="FastRestoran"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".UrunEkle"  android:parentActivityName=".Admin_panel" />
+        <activity android:name=".MasaEkle"  android:parentActivityName=".Admin_panel" />
+
+        <activity android:name=".Admin_yemek_detay"
+            android:parentActivityName=".Admin_panel" ></activity>
+
+        <activity
+            android:name=".Admin_masa_detay"
+            android:parentActivityName=".Admin_panel" />
+        <activity android:name=".Admin_panel" />
+        <activity
+            android:name=".MasaActivity"
+            android:parentActivityName=".Admin_panel" />
+        <activity
+            android:name=".KayitolActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity
+            android:name=".MasaDetay"
+            android:parentActivityName=".MasaActivity" />
+    </application>
+
+</manifest>

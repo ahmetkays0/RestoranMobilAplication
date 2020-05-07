@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_sil"
+        android:icon="@drawable/delete"
+        android:title="Sil"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_guncelle"
+        android:title="Güncelle"
+        app:showAsAction="always" />
+</menu>
